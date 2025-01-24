@@ -78,7 +78,7 @@
     <element xsi:type="archimate:BusinessFunction" name="Pobranie danych bramki" id="4549add6-7abc-4bb6-8b07-91756e61800c"/>
     <element xsi:type="archimate:BusinessFunction" name="Pobranie danych pojazdu" id="21defd5f-5d53-4326-8bbd-feacc16e70c5"/>
     <element xsi:type="archimate:BusinessFunction" name="Pobranie danych bramki" id="3079e00a-5a10-4069-aac8-9addd4c2d08e"/>
-    <element xsi:type="archimate:BusinessProcess" name="Weryfikacja salda klienta" id="d84ad0e8-7738-48ad-8be8-c5e8fc79593b"/>
+    <element xsi:type="archimate:BusinessProcess" name="Weryfikacja bilansu klienta" id="d84ad0e8-7738-48ad-8be8-c5e8fc79593b"/>
     <element xsi:type="archimate:BusinessFunction" name="Rejestracja punktu przejazdu" id="ecedce68-a89e-4d8c-ba67-52f362591c46"/>
     <element xsi:type="archimate:BusinessProcess" name="Weryfikacja taryfy usługowej" id="a3ee9df5-e085-4f58-bd98-0da833022e47"/>
     <element xsi:type="archimate:BusinessActor" name="GDDKiA" id="4f354d68-5f86-474b-b0ba-29372f3b545a"/>
@@ -535,6 +535,12 @@
 
 - dla GITD (dołoyżyć aktora i role)
 </content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-966bdb0d0aea4098b703e903edd3e7ae" textAlignment="1">
+        <bounds x="970" y="396" width="169" height="121"/>
+        <content>Bilans klienta
+- wpłacenie środków
+- </content>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="01_Warstwa aplikacji" id="4073f796-323a-49b6-8bbe-57a33a20f380">
